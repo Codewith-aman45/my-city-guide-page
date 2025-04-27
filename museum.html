@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Museum Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .description {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .museum-section {
+      margin-bottom: 60px;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    
+    <!-- Panorama Section -->
+    <div class="museum-section">
+      <h2>Panorama Museum</h2>
+      <p class="description">
+        The Panorama Museum offers an immersive experience with 360-degree views of historic moments and artistic marvels. It’s designed to transport visitors back in time through detailed, life-sized panoramic paintings and exhibits.
+      </p>
+      <div class="gallery">
+        <img src="imag 2p.jpeg" alt="Panorama 1">
+        <img src="war img.png" alt="Panorama 2">
+        <img src="imag 3p.jpeg" alt="Panorama 3">
+        <img src="panorama-science-centre img.jpg" alt="Panorama 4">
+      </div>
+    </div>
+
+    <!-- Dharohar Museum Section -->
+    <div class="museum-section">
+      <h2>Dharohar Museum</h2>
+      <p class="description">
+        The Dharohar Museum is a cultural heritage hub showcasing the rich traditions, arts, and artifacts of our ancestors. From ancient manuscripts to folk art, this museum preserves the essence of our historical journey.
+      </p>
+      <div class="gallery">
+        <img src="imag26.jpg" alt="Dharohar 1">
+        <img src="imag d2.jpeg" alt="Dharohar 2">
+        <img src="imag d1.jpeg" alt="Dharohar 3">
+        <img src="imag25.jpg" alt="Dharohar 4">
+      </div>
+    </div>
+
+    <div class="museum-section">
+        <h2>Krishan Museum</h2>
+        <p class="description">
+          Dedicated to the life and teachings of Lord Krishna, the Krishan Museum captures his divine journey through art, sculpture, and multimedia exhibits. Visitors can explore tales from the Mahabharata, Bhagavad Gita, and witness Krishna's influence on culture and spirituality.
+        </p>
+        <div class="gallery">
+          <img src="Krishna-Museum-img.jpg" alt="Krishan 1">
+          <img src="imag k1.jpeg" alt="Krishan 2">
+          <img src="Image k4.jpeg" alt="Krishan 3">
+          <img src="Image K3.jpeg" alt="Krishan 4">
+        </div>
+      </div>
+
+  </div>
+  <div style="text-align: center; margin-bottom: 2rem;">
+    <a href="index.html" style="padding: 10px 20px; background-color: #4b2e83; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Back to Home</a>
+  </div>
+
+</body>
+</html>

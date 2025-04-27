@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurukshetra Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Kurukshetra</div>
+      <input type="checkbox" id="toggle" class="menu-toggle">
+      <label for="toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="#places-category-section">Places to Visit</a>
+          <ul class="dropdown-menu">
+            <li><a href="religious place.html">Religious</a></li>
+            <li><a href="historical place.html">Historical</a></li>
+            <li><a href="museum.html">Museums</a></li>
+          </ul>
+        </li>
+        <li><a href="#plan">Plan Visit</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<header class="hero-section" id="home">
+  <div class="hero-content">
+    <h1>Welcome to Kurukshetra</h1>
+    <p>The Land of the Bhagavad Gita</p>
+  </div>
+</header>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Kurukshetra</h2>
+      <p>
+        Kurukshetra, located in the heart of Haryana, India, is a sacred and historic land known for the epic battle of the Mahabharata. It is the divine setting where Lord Krishna narrated the Bhagavad Gita to Arjuna.
+      </p>
+      <p>
+        The city is dotted with revered temples, sacred lakes like Brahma Sarovar, and spiritual landmarks such as Jyotisar. It's not only a pilgrimage destination but also a center of learning and heritage.
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="imag28.jfif" alt="Kurukshetra">
+    </div>
+  </div>
+</section>
+<section id="places-category-section">
+  <h2 class="places-heading">Places to Visit in Kurukshetra</h2>
+  <div class="places-category-wrapper">
+
+    
+    <div class="places-category-card">
+      <img src="birla tem Kurukshetra1.webp" alt="Religious Sites" class="places-category-image">
+      <h3 class="places-category-title">Religious Sites</h3>
+      <p class="places-category-description">Temples such as Bhadrakali and Sthaneshwar Mahadev where spirituality comes alive.</p>
+      <a href="religious place.html" class="places-category-button">Explore Religious</a>
+    </div>
+
+    
+    <div class="places-category-card">
+      <img src="Sheikh-Chehli-tomb.jpg" alt="Historical Sites" class="places-category-image">
+      <h3 class="places-category-title">Historical Sites</h3>
+      <p class="places-category-description">Ancient landmarks like Brahma Sarovar and Jyotisar that echo the Mahabharata.</p>
+      <a href="historical place.html" class="places-category-button">Explore Historical</a>
+    </div>
+
+    
+    <div class="places-category-card">
+      <img src="imag26.jpg" alt="Museums" class="places-category-image">
+      <h3 class="places-category-title">Museums</h3>
+      <p class="places-category-description">Explore the Krishna Museum with rich cultural and artistic exhibits.</p>
+      <a href="museum.html" class="places-category-button">Explore Museums</a>
+    </div>
+
+    <section class="gallery-section" id="gallery">
+      <h2 class="gallery-title">Gallery</h2>
+      <div class="gallery-grid">
+        <img src="ima6.jpeg" alt="Gallery Image 1">
+        <img src="imag12.jpg" alt="Gallery Image 2">
+        <img src="imag24.jpg" alt="Gallery Image 3">
+        <img src="brahma saeover.webp" alt="Gallery Image 4">
+      </div>
+      <div class="gallery-button-wrapper">
+        <a href="gallery.html" class="gallery-button">Explore Gallery</a>
+      </div>
+    </section>
+    
+    
+<section id="plan" class="visit-section">
+  <h2 class="visit-heading">Plan Your Visit to Kurukshetra</h2>
+
+  <div class="visit-container">
+
+   
+    <div class="visit-box">
+      <img src="railway station.jpg" alt="Train and Bus Station" class="visit-image">
+      <h3>🧭 Getting There</h3>
+      <ul>
+        <li><strong>By Train:</strong> Kurukshetra Junction (KKDE) is well-connected to major cities.</li>
+        <li><strong>By Bus:</strong> Regular services from Delhi, Chandigarh, and Ambala.</li>
+        <li><strong>By Car:</strong> Easily reachable via NH-44 from nearby cities.</li>
+      </ul>
+    </div>
+
+    
+    <div class="visit-box">
+      <img src="hotel image - Copy.jfif" alt="Hotel Room" class="visit-image">
+      <h3>🏨 Accommodation</h3>
+      <ul>
+        <li><strong>Budget Hotels:</strong> Affordable and comfortable, ideal for short stays.</li>
+        <li><strong>Mid-range Hotels:</strong> Well-equipped for families and solo travelers.</li>
+        <li><strong>Homestays & Guesthouses:</strong> Local, warm, and traditional living experience.</li>
+        <li><strong>Dharamshalas:</strong> Basic, peaceful stays managed by religious trusts.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  </div >
+</section>
+  
+<div id="contact" class="contact-form" >
+  <h2 >Contact Us</h2>
+  <form action="#" >
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="mobile">Mobile</label>
+    <input type="tel" id="mobile" name="mobile" required />
+
+    <label for="inquiry">Inquiry Type</label>
+    <select id="inquiry" name="inquiry" required>
+      <option value="">-- Select --</option>
+      <option value="general">General</option>
+      <option value="booking">Booking</option>
+      <option value="support">Support</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="travel-date">Travel Date</label>
+    <input type="date" id="travel-date" name="travel-date" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your message..."></textarea>
+
+    <div class="button-wrapper">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+
+<footer>
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#places-category-section">Place to visit</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#plan">Plan to visit</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Contact Info</h4>
+    <ul>
+      <li>Email: contact@example.com</li>
+      <li>Phone: +1 234 567 890</li>
+      <li>Address: 123 Main Bazer, Kurukshetra,136118</li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Follow Us</h4>
+    <ul class="social-list">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">YouTube</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
